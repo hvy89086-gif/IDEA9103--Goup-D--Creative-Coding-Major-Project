@@ -132,4 +132,14 @@ function drawFrameAndGround() {
   rect(22, 22, width - 24, height - 24);
 }
 
+function mousePressed() {
+  handleUserInput();
+}
+
+function resetStory() {
+  resetUserInput();
+  resetTimeBased();
+  resetAudio();
+}
+
 
