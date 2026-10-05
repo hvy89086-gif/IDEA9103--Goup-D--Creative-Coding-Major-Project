@@ -1,15 +1,11 @@
-function setup() {
-  createCanvas(800, 500);
-}
+// ========================================
+// MOVE TOGETHER
+// MAIN SKETCH
+//
+// Main controller for:
+// Vy     → User Input
+// Emery  → Time-based
+// Zihen  → Audio
+// ========================================
 
-function draw() {
-  background(240);
 
-  updateUserInput();
-  updateTimeBased();
-  updateAudio();
-
-  drawUserInput();
-  drawTimeBased();
-  drawAudio();
-}
