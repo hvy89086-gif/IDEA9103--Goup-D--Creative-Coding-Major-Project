@@ -1,4 +1,7 @@
+console.log("VY FILE IS LOADED");
+
 function setupUserInput() {
+  console.log("SETUP USER INPUT RUNNING");
   character1 = new Figure(-70, GROUND_Y, '#e7352d');
   character2 = new Figure(870, GROUND_Y, '#1598c5');
   candy = new Candy();
