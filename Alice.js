@@ -1,7 +1,15 @@
-function setup() {
-  createCanvas(400, 400);
+function setupAudio() {
+  // Audio will be added later
 }
 
-function draw() {
-  background(220);
+function updateAudio() {
+  // Audio will be added later
+}
+
+function drawAudio() {
+  // Audio will be added later
+}
+
+function resetAudio() {
+  // Reset later
 }
