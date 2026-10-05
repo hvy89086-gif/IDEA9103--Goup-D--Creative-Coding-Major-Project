@@ -81,7 +81,6 @@ function drawFrameAndGround() {
   vertex(0, 390);
 
   bezierVertex( 55, 380, 105, 365, 165, 375);
-
   bezierVertex( 225, 385, 250, 400, 315, 385);
 
   bezierVertex( 375, 370, 420, 370, 480, 385);
@@ -169,4 +168,3 @@ function resetStory() {
   resetTimeBased();
   resetAudio();
 }
-
