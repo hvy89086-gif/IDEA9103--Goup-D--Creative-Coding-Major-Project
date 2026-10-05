@@ -1,7 +1,15 @@
-function setup() {
-  createCanvas(400, 400);
+function setupTimeBased() {
+  // Emery will build this later
 }
 
-function draw() {
-  background(220);
+function updateTimeBased() {
+  // Emery will build this later
+}
+
+function drawTimeBased() {
+  // Emery will build this later
+}
+
+function resetTimeBased() {
+  // Reset later
 }
