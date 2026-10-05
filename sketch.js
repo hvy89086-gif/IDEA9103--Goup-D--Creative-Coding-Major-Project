@@ -1,7 +1,15 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 500);
 }
 
 function draw() {
-  background(220);
+  background(240);
+
+  updateUserInput();
+  updateTimeBased();
+  updateAudio();
+
+  drawUserInput();
+  drawTimeBased();
+  drawAudio();
 }
