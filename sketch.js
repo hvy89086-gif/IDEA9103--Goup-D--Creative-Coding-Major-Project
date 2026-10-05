@@ -19,15 +19,7 @@ const MOVE_EASING = 0.075;
 const ARRIVAL_DISTANCE = 2;
 
 let groundDots = [];
-let isAnimating = false;
-let storyStep = 0;
 
-let character1;
-let character2;
-let candy;
-
-let statusText;
-let restartButton;
 
 function setup() {
   createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
